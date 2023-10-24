@@ -33,7 +33,7 @@ nav {
 .navbar-menu {
     text-align: left;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 12px;
     padding-bottom: 10px;
     margin-bottom: 1px;
@@ -48,6 +48,7 @@ nav {
     font-family: var(--normal-font);
     font-weight: bold;
     padding: 10px;
+    letter-spacing: 1px;
     transition-duration: 0.5s;
 }
 
