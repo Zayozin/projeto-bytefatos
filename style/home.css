@@ -1,0 +1,54 @@
+.quote {
+    display: flex;
+    align-items: center;
+    font-family: var(--normal-font);
+    margin: auto;
+    font-size: 1.5em;
+    max-width: 1000px;
+    min-width: 200px;
+    
+}
+
+.quote a:hover {
+    text-decoration: underline;
+}
+
+.quote  strong {
+    font-size: 1em;
+    color: var(--color4);
+    font-family: var(--contrast-font);
+        
+}
+
+#extra {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+#extra strong {
+    color: var(--color4);
+    font-family: var(--contrast-font);
+    font-size: 2em;
+    
+}
+
+#extra > p {
+    font-size: 0.5em;
+    margin-left: 5px;
+}
+
+#extra a {
+    text-decoration: none;
+    color: black;
+}
+
+#more > a {
+    text-decoration: none;
+    font-size: 0.75em;
+    color: var(--color3);
+}
+
+.quote div {
+    padding-top: 100px;
+}
