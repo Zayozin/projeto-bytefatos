@@ -1,17 +1,14 @@
 .quote {
     display: flex;
-    align-items: center;
     font-family: var(--normal-font);
     margin: auto;
+    align-items: center;
     font-size: 1.5em;
     max-width: 1000px;
     min-width: 200px;
     
 }
 
-.quote a:hover {
-    text-decoration: underline;
-}
 
 .quote  strong {
     font-size: 1em;
@@ -29,7 +26,7 @@
 #extra strong {
     color: var(--color4);
     font-family: var(--contrast-font);
-    font-size: 2em;
+    font-size: 1.5em;
     
 }
 
@@ -49,6 +46,8 @@
     color: var(--color3);
 }
 
-.quote div {
-    padding-top: 100px;
+.aspas {
+    width: 25px;
+    height: 25px;
+    
 }
