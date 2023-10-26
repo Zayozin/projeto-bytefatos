@@ -1,5 +1,5 @@
 nav {
-    background-image: linear-gradient(to bottom, var(--color1), var(--color3));
+    background-color: var(--color5);
     height: fit-content;
     color: var(--white-color);
     padding-bottom: 5px;
@@ -19,6 +19,7 @@ nav {
     font-family: var(--contrast-font);
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: var(--color1);
 }
 
 .navbar > p {
@@ -53,6 +54,6 @@ nav {
 
 .navbar-menu > a:hover {
     background-color: var(--color1);
-    color: var(--color3);
+    color: var(--color4);
     border-radius: 5px;
 }

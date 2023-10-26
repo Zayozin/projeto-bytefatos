@@ -9,14 +9,12 @@
 }
 
 :root {
-    --color1: #0C87F2;
-    --color2: #0C70F2;
-    --color3: #0C59F2;
+    --color1: #F2D307;
+    --color2: #9D9039;
+    --color3: #4332B3;
     --color4:  #2707F2;
-    --dark-color: black;
-    --white-color: white;
-    --gray-color: rgb(233, 255, 230);
-
+    --color5: #30343F;
+    
     --normal-font: Arial, Verdana, Helvetica, sans-serif;
     --contrast-font: 'Bebas Neue', sans-serif;
     --special-font: 'Android', sans-serif;
