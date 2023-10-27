@@ -1,59 +1,43 @@
 nav {
     background-color: var(--color5);
     height: fit-content;
-    color: var(--white-color);
-    padding-bottom: 5px;
-    
 }
 
 .navbar {
-    text-align: center;
-    
-    padding-top: 15px;
-    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
-.navbar > h1 {
-    font-size: 2.5em;
-    font-family: var(--contrast-font);
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: var(--color1);
-}
-
-.navbar > p {
-    margin: 5px 5px 10px 5px;
-    font-size: 1em;
-    font-family: var(--normal-font);
-    max-width: 600px;
-    margin: auto;
+.navbar > img {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    
 }
 
 .navbar-menu {
-    text-align: left;
     text-decoration: none;
-    margin-top: 10px;
     font-size: 12px;
-    padding-bottom: 10px;
-    margin-bottom: 1px;
     text-transform: uppercase;
 }
 
 .navbar-menu > a {
     text-decoration: none;
     margin: 0px 2px 0px 2px;
-    color: var(--white-color);
+    color: white;
     font-size: 15px;
     font-family: var(--normal-font);
     font-weight: bold;
-    padding: 10px;
     letter-spacing: 1px;
     transition-duration: 0.5s;
+    padding: 5px;
 }
 
 .navbar-menu > a:hover {
     background-color: var(--color1);
     color: var(--color4);
     border-radius: 5px;
+    padding: 10px;
 }
