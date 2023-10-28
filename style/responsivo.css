@@ -1,4 +1,15 @@
+@media screen and (max-width: 1300px) {
+    .opinions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .opinions p {
+       width: 400px;
+    }
+
+    
+}
 
 
 
@@ -12,11 +23,23 @@
     }
     
     .opinions {
-        width: 100%;
         flex-direction: column;
+    }
+
+    .opinions p {
+        width: 100%;
     }
 
     .quote {
         flex-direction: column;
+    }
+
+    .first-panel {
+        height: fit-content;
+        padding-bottom: 25px;
+    }
+    
+    .panel {
+        padding: 0px 50px;
     }
 }
