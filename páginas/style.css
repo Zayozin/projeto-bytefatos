@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    float: right;
+    max-width: 600px;
+    max-height: 400px;
+    min-height: fit-content;
+    background-color: beige;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.contain {
+    padding: 5px 10px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.extra {
+    background-color: aquamarine;
+    text-align: center;
+}
